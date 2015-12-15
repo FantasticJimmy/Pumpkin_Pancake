@@ -1,0 +1,142 @@
+body{
+	background: #ffffff;
+	background-image: url(newbackground.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+
+}
+
+
+
+
+
+
+h1{
+	text-align:center;
+	color:#361E12;
+	font-family:Cursive, sans-serif;
+
+}
+
+img{    
+	width:100%;
+	height:auto;
+	border-radius: 50px;
+
+}
+
+#img1{box-shadow: 30px 30px 50px 5px black;
+	border-radius: 100%;
+	-webkit-transform:rotate(10deg);
+
+}
+
+a:hover{
+
+	-webkit-animation: mymove 5s infinite; 
+
+	height:100%;
+	width:100%;
+	border-radius:100%;
+	display:block;
+	border:1px solid blue;
+}
+
+@-webkit-keyframes mymove {
+	50% {box-shadow: 50px 50px 50px blue;}
+}
+
+#img1Div{ 
+	position:relative;
+	width:30%;
+	height:30%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:100%;
+	/*border-style: solid;*/
+	margin-bottom:20px;	   
+}
+
+
+
+.ingredientcheckboxform{
+	/*border:2px solid black;*/
+	color:#361E12;
+	font-family:Cursive, sans-serif;
+				}
+
+
+.ingredientcheckbox{
+	
+	margin-left:29%;
+	margin-top
+
+}
+
+
+#Text{
+	/*border-style:solid;*/
+	position:relative;
+	width:40%;
+	font-family:cursive, sans-serif;
+	margin:auto;
+	color:#361E12;
+}
+#directionTitle{margin-left:20%;
+	font-family:cursive, sans-serif;
+	color:#361E12;
+	
+
+
+}
+
+#Direction{
+	margin-top:40px;
+	margin-left:12%;
+	/*border-style:solid;*/
+	width:90%;
+	height:45%;
+}
+#directiontable{
+	margin:auto;
+	margin-left:20%;
+	border:2px dashed black;
+	width:50%;
+	
+
+}
+
+
+#directiontable tr td{width:50%;
+	border:2px solid black;
+}
+
+li>p{margin-top:150px;
+	font-family: cursive, sans-serif;
+	color:#361E12	;
+}
+
+
+#likeme{margin-left:200px;
+	margin-top:50px;
+}
+
+
+#directionbuttonform{
+	width:10%;
+	margin-left:20%;
+	margin-top:-20px;
+	margin-bottom:10px;
+	/*border:2px solid black;*/
+
+}
+#Directionbutton{
+	width:100%;
+	height:100%;
+	/*border:1px solid blue;*/
+	margin:auto;
+}
